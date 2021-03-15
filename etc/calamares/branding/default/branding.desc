@@ -128,11 +128,11 @@ strings:
     versionedName:       Arcadia GNU/Linux 2021.3
 #    shortVersionedName:  FancyGL 2020.2
     bootloaderEntryName: Arcadia
-    productUrl:          https://calamares.io/
-    supportUrl:          https://github.com/calamares/calamares/wiki
-    knownIssuesUrl:      https://github.com/calamares/calamares/issues
-    releaseNotesUrl:     https://calamares.io/news/
-    donateUrl:           https://kde.org/community/donations/index.php
+#    productUrl:          https://calamares.io/
+    supportUrl:          https://github.com/ArcadiaLinux
+    knownIssuesUrl:      https://github.com/ArcadiaLinux
+#    releaseNotesUrl:     https://calamares.io/news/
+#    donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
 #
