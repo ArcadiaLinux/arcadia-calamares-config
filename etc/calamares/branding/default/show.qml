@@ -40,23 +40,13 @@ Presentation
         Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "This is a customizable QML slideshow.<br/>"+
-                  "Distributions should provide their own slideshow and list it in <br/>"+
-                  "their custom branding.desc file.<br/>"+
-                  "To create a Calamares presentation in QML, import calamares.slideshow,<br/>"+
-                  "define a Presentation element with as many Slide elements as needed."
+            text: "A simplistic Linux distribution.<br/>"+
+                  "Based on Arch Linux, you're sure to get the best of bleeding edge.<br/>"+
+                  "Welcome to a complete and beautiful Linux experience."
             wrapMode: Text.WordWrap
             width: presentation.width
             horizontalAlignment: Text.Center
         }
-    }
-
-    Slide {
-        centeredText: qsTr("This is a second Slide element.")
-    }
-
-    Slide {
-        centeredText: qsTr("This is a third Slide element.")
     }
 
     // When this slideshow is loaded as a V1 slideshow, only
