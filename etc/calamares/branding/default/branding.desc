@@ -125,12 +125,12 @@ strings:
     shortProductName:    Arcadia
     version:             2021.3.1 LTS
     shortVersion:        2021.3
-    versionedName:       Arcadia GNU/Linux 2021.3
-#    shortVersionedName:  FancyGL 2020.2
+    versionedName:       Arcadia Linux 2021.3
+    shortVersionedName:  Arcadia
     bootloaderEntryName: Arcadia
 #    productUrl:          https://calamares.io/
 #    supportUrl:          https://github.com/ArcadiaLinux
-    knownIssuesUrl:      https://github.com/ArcadiaLinux
+    # knownIssuesUrl:      https://github.com/ArcadiaLinux
 #    releaseNotesUrl:     https://calamares.io/news/
 #    donateUrl:           https://kde.org/community/donations/index.php
 
