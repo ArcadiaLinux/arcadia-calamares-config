@@ -23,3 +23,28 @@
     - firefox
     - falkon
     - chromium
+
+- name: "Desktop Environment"
+  description: "Desktop Environment"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - gnome
+    - xfce4
+    - i3-gaps
+
+- name: "Utilities"
+  description: "Miscellaneous utilities"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - gnome-extra
+    - xfce4-goodies
+    - i3status
+    - i3blocks
+    - dmenu
+    - rofi
