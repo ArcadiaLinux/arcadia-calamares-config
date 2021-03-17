@@ -13,28 +13,41 @@
 #
 # Which approach works depends on what you want to offer and how your
 # ISO-image toolchain works.
-- name: "Browsers"
-  description: "Browsers"
-  hidden: false
-  selected: false
-  critical: false
-  expanded: true
-  packages:
-    - firefox
-    - falkon
-    - chromium
 
-- name: "Terminals"
-  description: "Terminals"
+- name: "Desktop Environment: Gnome"
+  description: "Gnome"
   critical: false
   hidden: false
   selected: false
-  expanded: true
   packages:
-    - alacritty
-    - gnome-terminal
-    - kitty
-    - konsole
-    - terminator
-    - tmux
-    - xfce4-terminal
+    - gnome
+    - gnome-extra
+
+- name: "Desktop Environment: Xfce"
+  description: "Xfce4"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - dmenu
+    - gmrun
+
+- name: "Window Manager: i3"
+  description: "i3-wm"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - i3-gaps
+    - i3status
+    - i3blocks
+    - dmenu
+    - feh
+    - picom
+    - polybar
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    
