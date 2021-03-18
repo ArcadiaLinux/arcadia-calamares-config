@@ -45,6 +45,7 @@
     - i3status
     - i3blocks
     - dmenu
+    - rofi
     - feh
     - picom
     - polybar
