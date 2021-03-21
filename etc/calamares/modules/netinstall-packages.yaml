@@ -38,3 +38,23 @@
     - terminator
     - tmux
     - xfce4-terminal
+
+- name: "Office"
+  description: "Office Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - libreoffice-fresh
+    - libreoffice-still
+
+- name: "Messaging"
+  description: "Messaging Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - telegram-desktop
+    - discord
