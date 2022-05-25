@@ -123,9 +123,9 @@ navigation: widget
 strings:
     productName:         Arcadia
     shortProductName:    Arcadia
-    version:             2021.5.1 LTS
-    shortVersion:        2021.5
-    versionedName:       Arcadia Linux 2021.5
+    version:             2022.5.1 LTS
+    shortVersion:        2022.5
+    versionedName:       Arcadia Linux 2022.5
     shortVersionedName:  Arcadia
     bootloaderEntryName: Arcadia
 #    productUrl:          https://calamares.io/
